@@ -13,6 +13,6 @@ flowcapture.exe  -m CC-D9-AC-CB-52-AA -a 127.0.0.1 -p 90 -i  5
 
 以上的命令行启动后
 就可以使用  curl  http://127.0.0.1:90/flow/second         获取实时信息
-                  curl  http://127.0.0.1:90/flow/minute  获取最近60分钟信息
-                  curl  http://127.0.0.1:90/flow/hour    获取最近24小时信息
-                  curl  http://127.0.0.1:90/flow/day     获取最近30天信息
+           curl  http://127.0.0.1:90/flow/minute  获取最近60分钟信息
+           curl  http://127.0.0.1:90/flow/hour    获取最近24小时信息
+           curl  http://127.0.0.1:90/flow/day     获取最近30天信息
